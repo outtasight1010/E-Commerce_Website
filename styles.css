@@ -49,7 +49,7 @@ background-color: white;
     padding-left: 350px;
     font-size: 15px;
     
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
     border-image-width:5px;
     }
 
@@ -648,16 +648,40 @@ padding-right: 30px;
       }
 
       .footer-container{
-        background-color: orange;
-        display:grid;
-        clear: both;
-       height: 15vh;
-       margin: 1rem;
+      background-color: orange;
+      height: 16vh;
+      margin: 1rem;
       
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr ;
+      }
+      .footer-container p{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        font-weight: bolder;
+        padding-left: 650px;
+        margin-top: -40px;
         
       }
+      
+      .first-icons{
+        margin-left: 600px;
+        padding-top: 30px;
+      }
+      .last-icons{
+        margin-left: 820px;
+        margin-top:-42px;
+      }
+      .latin ul{
+        display:flex;
+        font-size: smaller;
+        list-style:none;
+        gap: 3rem;
+        float:center;
+        padding-left: 400px;
+        padding-top: 15px;
+        
+      }
+      
+     
 
 
 
